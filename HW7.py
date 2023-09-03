@@ -43,7 +43,7 @@ def rhythm(str):
         list_1.append(number_of_consonants)
     return len(list_1) == list_1.count(list_1[0])
 
-if rhythm(str_1):
+if rhythm(user_string):
     print('True')
 else:
     print('False')
